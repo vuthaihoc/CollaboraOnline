@@ -1,0 +1,9 @@
+services:
+  onlyoffice:
+    image: vuthaihoc/wopi:24.04
+    ports:
+      - "9983:9983"
+    restart: always
+    volumes:
+      - "./docs:/docs"
+    command: ["--o:storage.filesystem[@allow]=true"]
