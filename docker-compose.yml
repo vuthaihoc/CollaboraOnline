@@ -1,5 +1,5 @@
 services:
-  onlyoffice:
+  wopi:
     image: vuthaihoc/wopi:24.04
     ports:
       - "9983:9983"

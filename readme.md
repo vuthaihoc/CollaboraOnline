@@ -13,7 +13,7 @@
 # Docker compose
 
     services:
-      onlyoffice:
+      wopi:
         image: vuthaihoc/wopi:24.04
         ports:
           - "9983:9983"
@@ -26,3 +26,13 @@ Test
 
 - [Docx](http://localhost:9983/browser/dist/cool.html?file_path=file:///docs/demo.docx&permission=readonly)
 - [Pdf](http://localhost:9983/browser/dist/cool.html?file_path=file:///docs/demo.pdf&permission=readonly)
+
+# Screenshot
+
+- View
+
+![View](view.png)
+
+- Edit
+
+![Edit](edit.png)
